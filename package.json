@@ -1,0 +1,36 @@
+{
+  "name": "e-commerce-api",
+  "version": "1.0.0",
+  "description": "An e-commerce web application API",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "env-cmd -f ./.env nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinhmanhtri/e-commerce-api.git"
+  },
+  "keywords": [],
+  "author": "Manh Tri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinhmanhtri/e-commerce-api/issues"
+  },
+  "homepage": "https://github.com/dinhmanhtri/e-commerce-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "morgan": "^1.10.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.19"
+  }
+}
